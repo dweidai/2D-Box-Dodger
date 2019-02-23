@@ -25,8 +25,9 @@ public class Box : MonoBehaviour
         {
 
             gameObject.GetComponent<Renderer>().material.color = Color.red;
-            gameObject.GetComponent<Collider2D>().enabled = false;
+            //gameObject.GetComponent<Collider2D>().enabled = false;
         }
+        gameObject.GetComponent<Collider2D>().enabled = false;
         gameObject.GetComponent<Renderer>().material.color = Color.red;
 
     }
